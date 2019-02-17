@@ -1,0 +1,49 @@
+/*
+*** COMMON
+*/
+* {
+  box-sizing: border-box; }
+
+body {
+  min-width: 700px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3em;
+  font-family: "Special Elite", cursive;
+  font-weight: 400;
+  color: #666;
+  background-color: #000; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url("https://i.ytimg.com/vi/xZiTG_z4seY/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: top center;
+  padding-top: 250px;
+  display: -ms-flexbox;
+  display: flex; }
+  .container > div {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.text-center {
+  text-align: center; }
+
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2em;
+  color: #ddd;
+  text-shadow: 0 0 10px #0000ff;
+  letter-spacing: .5em;
+  padding: 2em; }
+
+p {
+  margin-bottom: 3em;
+  font-size: 1.2em;
+  line-height: 1.5;
+  word-spacing: .5em;
+  letter-spacing: .05em; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
