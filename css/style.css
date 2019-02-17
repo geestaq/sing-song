@@ -35,11 +35,13 @@ h1 {
   color: #ddd;
   text-shadow: 0 0 10px #ff0000;
   letter-spacing: .5em;
-  padding: 1em; }
+  padding: 2em; }
 
 p {
   margin-bottom: 3em;
   font-size: 1.2em;
-  line-height: 1.5; }
+  line-height: 1.5;
+  word-spacing: .5em;
+  letter-spacing: .05em; }
 
 /*# sourceMappingURL=style.css.map */
