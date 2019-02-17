@@ -1,0 +1,55 @@
+$font_title: 'Julius Sans One', sans-serif;
+$font_text: 'Special Elite', cursive;
+$main_font_color: #666;
+
+/*
+*** COMMON
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 700px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 3em;
+	font-family: $font_text;
+	font-weight: 400;
+	color: $main_font_color;
+	background-color: #000;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: url('https://i.ytimg.com/vi/xZiTG_z4seY/maxresdefault.jpg');
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: top center;
+	padding-top: 250px;
+	&>div {
+		background-color: rgba(0,0,0,.7);
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+h1 {
+	font-family: $font_title;
+	font-size: 2em;
+	color: #ddd;
+	text-shadow: 0 0 10px #ff0000;
+	letter-spacing: .5em;
+	padding: 1em;
+}
+
+p {
+	margin-bottom: 3em;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
