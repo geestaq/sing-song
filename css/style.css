@@ -25,6 +25,8 @@ body {
   padding-top: 250px; }
   .container > div {
     background-color: rgba(0, 0, 0, 0.7); }
+  .container iframe {
+    border: 0; }
 
 .text-center {
   text-align: center; }
